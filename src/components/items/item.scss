@@ -1,0 +1,32 @@
+.item_wrapper{
+    display: flex;
+    justify-content: start;
+    border-top: 1px solid rgb(213, 210, 210);
+    border-bottom: 1px solid rgb(213, 210, 210);
+    align-items: center;
+    font-size: 20px;
+    height: 55px;
+    span{
+        line-height: 20px;
+        font-weight: 300;
+    }
+    .completed{
+        text-decoration: line-through;
+        color: rgb(173, 170, 170);
+    }
+
+    
+}
+.list_wrapper{
+    max-height: 500px;
+    overflow: scroll;
+    
+}
+.empty_todos{
+   padding-left: 20px;
+   border-top: 1px solid rgb(213, 210, 210);
+   border-bottom: 1px solid rgb(213, 210, 210);
+   font-size: 20px;
+   color: rgb(135, 132, 132);
+   padding: 10px;
+}
